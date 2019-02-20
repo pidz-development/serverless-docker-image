@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add --update nodejs yarn python3 && \
+RUN apk add --update nodejs yarn python3 git && \
     # upgrade pip to the latest version to get rid of the warning
     pip3 install --upgrade pip
 
